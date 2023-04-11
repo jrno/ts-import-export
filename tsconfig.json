@@ -13,7 +13,9 @@
     "baseUrl": "./src",
     "resolveJsonModule": true,
     "paths": {
-      "~/*": ["./*"]
+      "~/*": [
+        "./*"
+      ]
     }
   },
   "compileOnSave": true,
@@ -21,6 +23,6 @@
     "node_modules"
   ],
   "include": [
-    "./src/**/*.ts"
+    "src"
   ]
 }
