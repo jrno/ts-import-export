@@ -1,0 +1,18 @@
+{
+  "name": "typescript-import-export",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "rm -rf ./dist && tsc --build && TS_NODE_BASEURL=./dist node -r tsconfig-paths/register ./dist/index.js"
+  },
+  "dependencies": {},
+  "volta": {
+    "node": "18.15.0"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "4.6.4"
+  }
+}
